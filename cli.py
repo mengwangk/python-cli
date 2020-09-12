@@ -4,6 +4,7 @@ A sample python cli.
 """
 
 import click
+from cli import settings
 
 
 @click.group()
@@ -29,6 +30,7 @@ def command2(src_db, dest_db):
     click.echo('command 2')
     click.echo(src_db)
     click.echo(dest_db)
+    print(settings.TEST_CONFIG)
 
 
 cli.add_command(command1)
