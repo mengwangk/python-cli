@@ -10,6 +10,7 @@ class TestTemplate(unittest.TestCase):
     """
     Test cases.
     """
+
     def test_print(self):
         """Test case."""
         print_test()
@@ -23,5 +24,5 @@ class TestTemplate(unittest.TestCase):
         self.assertIs(1, 1)
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     unittest.main()
