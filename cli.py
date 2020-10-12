@@ -2,8 +2,8 @@
 """
 A sample python cli.
 """
-
 import click
+
 from cli import settings
 
 
